@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300&display=swap');
+
+#workplease {
+    margin: 90px;
+}
+
+body {
+    background-image: url( "assets/images/OH3C140.jpg");
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+	opacity: 0.2;
+}
+
+
+li {
+    list-style: none;
+}
+
+h4 {
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+}
+
+.recipeCard {
+ 
+        font-size: 1em;
+        overflow: hidden;
+        margin: 35px;
+        border: none;
+        border-radius: .28571429rem;
+        box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+        width: 45%;
+        height: auto;
+        display: inline-block;
+        padding: 35px;
+        background-color: #F8F8F8;
+        font-family: 'Open Sans Condensed', sans-serif;
+        line-height: 1.6;
+        font-size: 15px;
+        height: 700px;
+   
+}
+
+
+.navbar {
+    height: 75px;
+    width: 100%
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 32px;
+  }
+
+.img-display {
+    width: 40%;
+    margin-bottom: 10px; 
+}

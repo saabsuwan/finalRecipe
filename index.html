@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Recipes - Project 1</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- Firebase References -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+          <img src="logo.png" alt="">
+        </a>
+          <div class="center">
+          <select id="dropDownIngredient">
+              <option>Not Selected</option>
+              <option value="chicken">Chicken</option>
+              <option value="beef">Beef</option>
+              <option value="vegan">Vegan</option>
+            </select>
+      
+            <select id="dropDownCalories">
+                  <option value="0-5000">Don't care</option>
+                  <option value="0-600">600 or less</option>
+                  <option value="0-800">800 or less</option>
+                  <option value="0-1000">1000 or less</option>
+                </select>
+      
+      
+                <select id="dropDownAllergy">
+                      <option value="none"> No Allergies</option>
+                      <option value="crustacean-free">crustacean-free</option>
+                      <option value="dairy-free">dairy-free</option>
+                      <option value="gluten-free">gluten-free</option>
+                      <option value="peanut-free">Peanut-free</option>
+                    </select>
+      
+      
+      
+            
+              <button id="submit">submit</button>
+            </div>
+        </div>
+      </nav>
+
+    
+        <div id="workplease"></div>
+
+
+
+        </div>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Recipe API Script -->
+    <script src="recipe-api-script.js"></script>
+</body>
+</html>
